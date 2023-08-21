@@ -29,14 +29,28 @@ body{
 }
 
 .card{
-    width: 95%;
-    border-radius: 10px;
     background-color: #fff;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.profile-back{
+    width: auto;
+    height: 140px;
+    background: url(./images/bg-pattern-card.svg);
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .image-profile{
-    border-radius: 50%;
-    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    margin: -50px auto 20px auto;
+}
+
+.image-profile img{
+    border-radius: 50px;
+    border: 5px solid #fff;
 }
 
 .description{
@@ -63,12 +77,15 @@ body{
 .stat{
     display: flex;
     justify-content: space-evenly;
+    border-top: 2px solid #e8e8e8;
+    margin: 20px 0 0 0;
 }
 
 .stat>div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px 0 20px 0;
 }
 
 .stat>div span:nth-child(1){
@@ -78,6 +95,7 @@ body{
 
 .stat>div span:nth-child(2){
     font-weight: 400;
-    font-size: 14px;
+    font-size: 10px;
     color: var(--Dark-gray);
+    letter-spacing: 0.1rem;
 }
