@@ -23,7 +23,7 @@ body{
     width: 100vw;
     align-items: center;
     justify-content: center;
-    background: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+    background: url(../images/bg-pattern-top.svg),url(../images/bg-pattern-bottom.svg);
     background-color: hsl(185, 75%, 39%);
     background-repeat: no-repeat,no-repeat;
     background-position: right 50vw bottom 37vh,left 40vw top 40vh;
@@ -110,11 +110,3 @@ body{
     letter-spacing: 0.1rem;
 }
 
-@media (min-width: 768px) {
-    .data span:nth-child(1){
-        color: #5f229c;
-    }
-    .stat>div:nth-child(3){
-        display: none;
-    }
-  }
